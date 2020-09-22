@@ -1,0 +1,10 @@
+/* pages/comments/comments.wxss */
+.section {
+  margin-left: 10px;
+  margin-right: 10px;
+  border-width: medium;
+}
+
+.border-text {
+  border-width: 3px;
+}

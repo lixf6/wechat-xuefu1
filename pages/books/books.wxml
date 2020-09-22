@@ -1,0 +1,11 @@
+<!--pages/books/books.wxml-->
+
+ <block wx:for="{{bookList}}" wx:for-item="laoqi" wx:key="bookName">
+   <view class='singleTrade' hover-class='item-press' catchtap='showTradeDetail' data-id='{{laoqi.bookId}}'>
+     <image src='{{laoqi.imageUrl}}' class='img' />
+     <view class='a'>
+       <view class='name'>{{laoqi.bookName}}</view>
+       <button class="name" bindtap="commentBook">评论</button>
+     </view>
+   </view>
+ </block>

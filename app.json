@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/books/books",
+    "pages/location/location",
+    "pages/comments/comments"
+  ],
+
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "学者入富来",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color":"black",
+    "position":"bottom",
+    "list":[
+      {
+        "pagePath": "pages/index/index",
+        "text":"者之家",
+        "iconPath":"images/index.png",
+        "selectedIconPath":"images/indexed.png"
+      },
+      {
+        "pagePath":"pages/books/books",
+        "text":"书之架",
+        "iconPath":"images/book.png",
+        "selectedIconPath":"images/booked.png"
+      },
+      {
+        "pagePath":"pages/location/location",
+        "text":"位之置",
+        "iconPath":"images/location.png",
+        "selectedIconPath": "images/locationed.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

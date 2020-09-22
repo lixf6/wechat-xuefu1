@@ -1,0 +1,17 @@
+<!--pages/weather/weather.wxml-->
+<view class='view'>
+  <map longitude="{{longitude}}" latitude="{{latitude}}" show-location>
+    <view>
+    经度：{{longitude}}
+    </view>
+     <view>
+    纬度：{{latitude}}
+    </view>
+    <view>
+    速度：{{speed}}
+    </view>
+    <view>
+    精度：{{accuracy}}
+    </view>
+  </map>
+</view>

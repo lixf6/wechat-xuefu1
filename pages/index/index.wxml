@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class="container">
+  <view>
+    <text class="official">请关注：{{officialaccount}}</text>
+  </view>
+  <view class="view-space">
+    <image src="/images/officialaccounts.jpg"></image>
+  </view>
+  <view class="usermotto">
+    <text>注：小程序图标来自https://blog.csdn.net/LiXueFu727224204</text>
+  </view>
+  
+</view>
